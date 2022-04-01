@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/stats-base-dists-pareto-type1-median",
+  "version": "0.0.0",
+  "description": "Pareto (Type I) distribution median.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-pareto-type1-median.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "distribution",
+    "dist",
+    "median",
+    "location",
+    "center",
+    "continuous",
+    "probability",
+    "prob",
+    "pareto",
+    "univariate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
