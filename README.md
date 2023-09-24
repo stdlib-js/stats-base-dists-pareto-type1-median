@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter and `β > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@v0.1.0-deno/mod.js';
 ```
 
 #### median( alpha, beta )
@@ -140,7 +140,7 @@ v = median( 1.0, -1.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@deno/mod.js';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@v0.1.0-deno/mod.js';
 
 var alpha;
 var beta;
