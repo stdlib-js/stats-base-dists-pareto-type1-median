@@ -1,5 +1,30 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var t=u(function(a,i){
-var n=require('@stdlib/math-base-special-pow/dist');function s(e,r){return e<=0||r<=0?NaN:r*n(2,1/e)}i.exports=s
-});var o=t();module.exports=o;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Pareto (Type I) distribution median.
+*
+* @module @stdlib/stats-base-dists-pareto-type1-median
+*
+* @example
+* var median = require( '@stdlib/stats-base-dists-pareto-type1-median' );
+*
+* var v = median( 0.8, 1.0 );
+* // returns ~2.378
+*
+* v = median( 4.0, 12.0 );
+* // returns ~14.27
+*
+* v = median( 8.0, 2.0 );
+* // returns ~2.181
+*/
+
+// MODULES //
+
+var median = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = median;
