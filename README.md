@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter and `β > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@v0.1.3-esm/index.mjs';
 ```
 
 #### median( alpha, beta )
@@ -146,7 +146,7 @@ v = median( 1.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-median@v0.1.3-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
