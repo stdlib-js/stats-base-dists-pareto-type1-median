@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-28)
+## Unreleased (2026-07-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2671115`](https://github.com/stdlib-js/stdlib/commit/2671115d6032e59f3ada1b661085d8999f31a88c) - **refactor:** add explicit `isnan` guards [(#13343)](https://github.com/stdlib-js/stdlib/pull/13343) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
