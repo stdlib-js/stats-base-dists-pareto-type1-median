@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-11)
+## Unreleased (2026-09-02)
+
+<section class="features">
+
+### Features
+
+-   [`d525ccc`](https://github.com/stdlib-js/stdlib/commit/d525ccc39f1cf0d580a5525eb4f99aadf9d337d8) - add C implementation for `stats/base/dists/pareto-type1/median` [(#10079)](https://github.com/stdlib-js/stdlib/pull/10079)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3861](https://github.com/stdlib-js/stdlib/issues/3861)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`d525ccc`](https://github.com/stdlib-js/stdlib/commit/d525ccc39f1cf0d580a5525eb4f99aadf9d337d8) - **feat:** add C implementation for `stats/base/dists/pareto-type1/median` [(#10079)](https://github.com/stdlib-js/stdlib/pull/10079) _(by Siddhartha Mondal, stdlib-bot, Philipp Burckhardt)_
 -   [`2f6c686`](https://github.com/stdlib-js/stdlib/commit/2f6c686a77739f4d4b33c717457c7698f791e968) - **test:** migrate `stats/base/dists/pareto-type1/median` to ULP-based assertions [(#14155)](https://github.com/stdlib-js/stdlib/pull/14155) _(by Athan Reines)_
 -   [`2671115`](https://github.com/stdlib-js/stdlib/commit/2671115d6032e59f3ada1b661085d8999f31a88c) - **refactor:** add explicit `isnan` guards [(#13343)](https://github.com/stdlib-js/stdlib/pull/13343) _(by Philipp Burckhardt)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
@@ -27,10 +50,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Siddhartha Mondal
 
 </section>
 
